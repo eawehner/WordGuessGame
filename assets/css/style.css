@@ -1,0 +1,21 @@
+body {
+    background-image: url(../images/pikabg.jpg);
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 58px;
+    color: yellow;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    text-shadow: 4px 10px #ffffff;
+}
+
+div {
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+}

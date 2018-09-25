@@ -2,6 +2,9 @@
 <head>
     <title>Hangman!</title>
 
+    <!--Google Font for header-->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/javascript/game.js"></script>
 </head>
@@ -10,16 +13,16 @@
 
     <h1>Guess that Pokemon!</h1>
 
-    <span id="gameState">Press The Enter Key To Start!</span>
-
     <div class="container">
-        
+
         <!-- <div class="image">
             maybe have an image here of the matching Pokemon 
         </div> -->
 
         <div class="game">
             <!-- game content -->
+
+            <span id="gameState">Press The Enter Key To Start!</span>
 
             <p>The Pokemon is...</p>
 
@@ -31,9 +34,7 @@
 
             <p>Guesses Left: </p>
             <p><span id="guessesLeft">10</span></p>
-        </div>
 
-        <div class="score">
             <p>Wins: <span id="winsTotal"></span></p>
             <p>Losses: <span id="lossesTotal"></span></p>
         </div>
