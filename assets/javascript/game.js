@@ -19,8 +19,12 @@ var pokemon = ["pikachu", "jigglypuff", "onyx", "eevee", "squirtle", "charmander
 
 function gameStart() {
     chances = 10;
+
     var gameState = document.getElementById("gameState");
     gameState.textContent = "WHAT'S THAT POKEMON? (Press Enter to Restart)";
+
+    var lettersGuessed = document.getElementById("lettersGuessed");
+    lettersGuessed.innerHTML = " ";
 
     // COMPUTER PICKS A WORD
     thatPokemon = pokemon[Math.floor(Math.random() * pokemon.length)];
@@ -29,7 +33,7 @@ function gameStart() {
 
     //...AND DISPLAYS EMPTY SPACES
 
-    // var PokeArray = [];
+    PokeArray = [];
 
     for (i=0; i < thatPokemon.length; i++) {
         PokeArray[i] = " _ ";
